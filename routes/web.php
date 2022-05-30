@@ -6,8 +6,11 @@ use App\Http\Controllers\ContactController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\LocalizationController;
+use App\Http\Controllers\ClientController;
+
 
 use App\Models\Contact;
+use App\Models\User;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,17 +25,22 @@ use App\Models\Contact;
 
 Route::get('/', [LocalizationController::class, "index"]);
 Route::get('/', [LocalizationController::class, "lang_change"])->name('LangChange');
-
+Route::post('/', [ContactController::class, 'sendMsg']);
 
 Auth::routes();
 
-Route::post('/', [HomeController::class, 'sendMsg']);
 
 Route::group(['middleware' => 'auth','IsAdmin'], function () {
-Route::get('/dashboard/index', [DashboardController::class, 'Showdashboard'])->name('admin.dash');
 
+Route::get('/dashboard/index', [DashboardController::class, 'Showdashboard'])->name('admin.dash');
 Route::get('/dashboard/messages', [DashboardController::class, 'Showmessages'])->name('admin.msg');
 Route::get('/dashboard/messages/{id}', [DashboardController::class, 'showMsgbyID'])->name('admin.msgid');
+
+//////CLient path dashboard ///////
+Route::get('/authentication/index', [ClientController::class, 'Showdclientdash'])->name('client.dash');
+
+
+
 });
 
 Route::get('/auth/logout', [DashboardController::class, 'logout']);
