@@ -680,7 +680,7 @@
                     <h3>Walid Loultiti</h3>
                     <h4>Ceo &amp; Founder</h4>
                     <p>
-                      Every day , we have a dream ... non stop !
+                      great work !
                     </p>
                   </div>
                 </div>
@@ -754,7 +754,7 @@
                   <div class="social">
                     <a href="https://twitter.com/amineamri"><i class="bi bi-twitter"></i></a>
                     <a href="https://www.facebook.com/mohamedamineamriii/"><i class="bi bi-facebook"></i></a>
-                    <a href="https://www.instagram.com/amine.amriii/"><i class="bi bi-instagram"></i></a>
+                    <a href="https://www.instagram.com/mineamri/"><i class="bi bi-instagram"></i></a>
                     <a href="https://www.linkedin.com/in/amriservices/"><i class="bi bi-bag-plus-filledin"></i></a>
                   </div>
                 </div>

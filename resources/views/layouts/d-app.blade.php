@@ -74,10 +74,10 @@
                                     Tools
                                 </li>
                                 <li class="nav-item ">
-                                    <a class="nav-link active" href="/dashboard/messages" ><i class="fas fa-envelope-open-text"></i> Messages</a>
+                                    <a class="nav-link active" href="/dashboard/messages" ><i class="fas fa-envelope-open-text"></i> Liste </a>
                                 </li>
                                 <li class="nav-item ">
-                                    <a class="nav-link active" href="#"><i class="fas fa-users"></i> Users</a>
+                                    <a class="nav-link active" href="/dashboard/users"><i class="fas fa-users"></i> Users</a>
                                 </li>
                                 <li class="nav-item ">
                                     <a class="nav-link active" href="#"><i class="fab fa-blogger"></i> Blog</a>

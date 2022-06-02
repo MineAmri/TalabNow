@@ -6,6 +6,14 @@
 @endif
 
 
+@if ($message = Session::get('primary'))
+<div class="alert alert-primary" role="alert">
+    {{ $message }}
+  </div>
+@endif
+
+
+
 @if ($message = Session::get('error'))
 <div class="alert-icon-big alert alert-danger " role="alert">
 <div class="alert-icon">

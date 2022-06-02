@@ -29,7 +29,7 @@
           <form method="POST" action="{{ route('login') }}">
                         @csrf
 
-            <button class="login-with-fb"><i class="fa fa-facebook-official" aria-hidden="true"></i> Log in with Gmail</button>
+            <button class="login-with-fb"><i class="fa fa-facebook-official" aria-hidden="true"></i> Log in</button>
             <span class="options-divider">OR</span>
              @include('flash-message')<br>
             <span class="option-br"></span>
@@ -59,7 +59,7 @@
           </form>
         </div>
         <div class="login-link form-bg">
-          <p>Don't have already an account? <a href="#">register</a></p>
+          <p>Don't have already an account? <a href="/register">register</a></p>
         </div>
       </div>
     </div>

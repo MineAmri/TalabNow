@@ -29,10 +29,10 @@
         <div class="form-bg">
           <a href="#"><img src="{{ asset('img/logo.png') }}" alt="logo" class="img-fluid"></a>
           <h2>Sign up to one of members on our communiy.</h2>
+          <a style="background-color: #007aff;border: none;width: 100%;color: #fff;font-size: 14px;text-align: center;padding: 8px 15px;border-radius: 4px;font-weight: 600;"  href="/login"  class="btn btn-primary btn-block text-center btn-lg"><i class="fa fa-facebook-official" aria-hidden="true"></i> Log in
+            </a>
           <form method="POST" action="{{ route('register') }}"> @csrf
-            <button class="login-with-fb"><i class="fa fa-facebook-official" aria-hidden="true">
-                                          </i> Log in with Gmail
-            </button>
+            
             <span class="options-divider">OR</span>
             @include('flash-message')<br>
             <span class="option-br"></span>

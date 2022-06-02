@@ -7,6 +7,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\LocalizationController;
 use App\Http\Controllers\ClientController;
+use App\Http\Controllers\UsersController;
 
 
 use App\Models\Contact;
@@ -36,8 +37,15 @@ Route::get('/dashboard/index', [DashboardController::class, 'Showdashboard'])->n
 Route::get('/dashboard/messages', [DashboardController::class, 'Showmessages'])->name('admin.msg');
 Route::get('/dashboard/messages/{id}', [DashboardController::class, 'showMsgbyID'])->name('admin.msgid');
 
+Route::get('/dashboard/users', [UsersController::class, 'Showusers'])->name('admin.users');
+
+Route::get('/dashboard/users/{id}', [UsersController::class, 'showUsersbyID'])->name('admin.userid');
+Route::get('/dashboard/delusers/{id}', [UsersController::class, 'destroyClient'])->name('admin.deluserid');
+
 //////CLient path dashboard ///////
 Route::get('/authentication/index', [ClientController::class, 'Showdclientdash'])->name('client.dash');
+
+
 
 
 
