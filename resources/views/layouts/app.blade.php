@@ -128,9 +128,10 @@
           <div class="col-lg-3 col-md-6 footer-newsletter">
             <h4>{{ __('sentence.Newsletter') }}</h4>
             <p>{{ __('sentence.Newsletter_des') }}</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="{{ __('sentence.Search') }}">
-            </form><br>
+            <form >
+            
+    <a style="background-color: #007aff;border: none;width: 100%;color: #fff;font-size: 14px;text-align: center;padding: 8px 15px;border-radius: 4px;font-weight: 600;" href="http://127.0.0.1:8000/register" class="btn btn-primary btn-block text-center btn-lg"><i class="fa fa-facebook-official" aria-hidden="true"></i> Inscription Employeé
+    </a><br><br><br>
 
             <a class="dropdown-item" href="/?lang=en"><img src="{{asset('lang/img/flags/48/Us.png')}}" width="22px"> English</a>
             <a class="dropdown-item" href="/?lang=fr"><img src="{{asset('lang/img/flags/48/Fr.png')}}" width="22px"> Français</a>
@@ -145,9 +146,11 @@
         &copy; Copyright <strong>Talab Now</strong>. All Rights Reserved
       </div>
       <div class="credits">
-        Designed by <a href="https://www.instagram.com/amine.amriii/">Med Amine Amri </a> & Developed by <a href="https://www.instagram.com/elmahdi.ouhssain/">El Mahdi Ouhssain </a><p style="color : Yellow " ;>2021/2022</p>
+        Designed by <a href="https://www.instagram.com/mineamri/">Med Amine Amri </a>
+        <p style="color : Yellow " ;>2021/2022</p>
       </div>
       </div>
+      
   </footer>
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>

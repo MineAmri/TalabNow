@@ -74,17 +74,17 @@
                                     Tools
                                 </li>
                                 <li class="nav-item ">
-                                    <a class="nav-link active" href="/dashboard/messages" ><i class="fas fa-envelope-open-text"></i> Liste </a>
+                                    <a class="nav-link active" href="/dashboard/messages" ><i class="fas fa-envelope-open-text"></i> Liste Employeur </a>
                                 </li>
                                 <li class="nav-item ">
-                                    <a class="nav-link active" href="/dashboard/users"><i class="fas fa-users"></i> Users</a>
+                                    <a class="nav-link active" href="/dashboard/users"><i class="fas fa-users"></i>Users</a>
                                 </li>
                                 <li class="nav-item ">
-                                    <a class="nav-link active" href="#"><i class="fab fa-blogger"></i> Blog</a>
+                                    <a class="nav-link active" href="#"><i class="fab fa-blogger"></i> Calendrier</a>
                                 </li>
                               
                                 <li class="nav-item ">
-                                    <a class="nav-link active" href="#"><i class="fas fa-project-diagram"></i> Projects</a>
+                                    <a class="nav-link active" href="http://127.0.0.1:8000/auth/logout"><i class="fas fa-project-diagram"></i>Log Out </a>
                                 </li>
 
 

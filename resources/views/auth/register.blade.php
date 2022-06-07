@@ -27,8 +27,8 @@
     <div class="row">
       <div class="col-sm-10 col-lg-6 offset-sm-1 offset-lg-3">        
         <div class="form-bg">
-          <a href="#"><img src="{{ asset('img/logo.png') }}" alt="logo" class="img-fluid"></a>
-          <h2>Sign up to one of members on our communiy.</h2>
+          <a href="/"><img src="{{ asset('img/logo.png') }}" alt="logo" class="img-fluid"></a>
+          <h2>This Inscription was Approved by the Administrator</h2>
           <a style="background-color: #007aff;border: none;width: 100%;color: #fff;font-size: 14px;text-align: center;padding: 8px 15px;border-radius: 4px;font-weight: 600;"  href="/login"  class="btn btn-primary btn-block text-center btn-lg"><i class="fa fa-facebook-official" aria-hidden="true"></i> Log in
             </a>
           <form method="POST" action="{{ route('register') }}"> @csrf
@@ -78,7 +78,7 @@
             <p class="term-policy">By signing up, you agree to our <a target="_blank" href="#" rel="noopener noreferrer">Terms</a> , <a target="_blank" href="#" rel="noopener noreferrer">Data Policy</a> and <a target="_blank" href="#" rel="noopener noreferrer">Cookies Policy</a>.</p>
           </form>
           <div class="login-link form-bg">
-          <p>Have a account? <a href="#">Log in</a></p>
+          <p>Have a account? <a href="/login">Log in</a></p>
           </div>
         </div>
       </div>

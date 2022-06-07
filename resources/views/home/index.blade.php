@@ -9,8 +9,8 @@
         <h2>{{ __('sentence.header') }}</h2>
         <div>
           <a href="#contact" class="btn-get-started scrollto">{{ __('sentence.get_started') }}</a>
-          <a href="#services" class="btn-services scrollto">{{ __('sentence.our_services') }}</a>
-        </div>
+          <a href="#services" class="btn-services scrollto">{{ __('sentence.our_services') }}</a>     
+          </div>
       </div>
     </div>
   </section>
