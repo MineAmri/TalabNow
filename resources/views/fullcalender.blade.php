@@ -1,24 +1,33 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Laravel Fullcalender Tutorial Tutorial - ItSolutionStuff.com</title>
-    <meta name="csrf-token" content="{{ csrf_token() }}">
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.js"></script>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
-</head>
-<body>
+@extends('layouts.d-app')
+@section('content')
+
+ <div class="dashboard-wrapper">
+            <div class="dashboard-ecommerce">
+                <div class="container-fluid dashboard-content ">
+                    <div class="row">
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="page-header">
+                                <h2 class="pageheader-title">Talab Now Dashboard Admin</h2>
+                                <div class="page-breadcrumb">
+                                    <nav aria-label="breadcrumb">
+                                        <ol class="breadcrumb">
+                                            <br>@include('flash-message')<br>
+                                        </ol>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
     
 <div class="container">
     <h1>Laravel 9 FullCalender Tutorial Example - ItSolutionStuff.com</h1>
     <div id='calendar'></div>
 </div>
+
+  </div>
+                </div>
+            </div>
   
 <script type="text/javascript">
   
@@ -143,6 +152,4 @@ $(document).ready(function () {
     } 
     
 </script>
-  
-</body>
-</html>
+@endsection

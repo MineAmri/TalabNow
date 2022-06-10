@@ -42,7 +42,10 @@ Route::get('/dashboard/users', [UsersController::class, 'Showusers'])->name('adm
 Route::get('/dashboard/users/{id}', [UsersController::class, 'showUsersbyID'])->name('admin.userid');
 Route::get('/dashboard/delusers/{id}', [UsersController::class, 'destroyClient'])->name('admin.deluserid');
 
-Route::get('/dashboard/users', [UsersController::class, 'Showusers'])->name('admin.users');
+Route::get('/dashboard/users', [UsersController::class, 'Showusers'])->name('admin.users'); 
+
+
+}); 
 
 
 
@@ -51,15 +54,10 @@ Route::get('/dashboard/users', [UsersController::class, 'Showusers'])->name('adm
 
 
 //////CLient path dashboard ///////
-Route::get('/authentication/index', [ClientController::class, 'Showdclientdash'])->name('client.dash');});
+Route::get('/dashboard/fullcalender', [FullCalenderController::class, 'index'])->name('calender.dash');
 
 
-
-Route::controller(FullCalenderController::class)->group(function(){
-    Route::get('fullcalender', 'index');
-    Route::post('fullcalenderAjax', 'ajax');
-});
-
+Route::get('/authentication/index', [ClientController::class, 'Showdclientdash'])->name('client.dash');
 
 
 

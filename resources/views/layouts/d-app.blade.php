@@ -1,31 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@MineAmri 
-MineAmri
-/
-TalabNow
-Public
-Code
-Issues
-Pull requests
-Projects
-Wiki
-Security
-Insights
-Settings
-TalabNow/resources/views/layouts/d-app.blade.php
-@MineAmri
-MineAmri 'updated'
-Latest commit 9125d35 5 days ago
- History
- 1 contributor
-131 lines (119 sloc)  8.03 KB
-   
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -71,6 +43,14 @@ Latest commit 9125d35 5 days ago
     <link href="{{ asset('/css/dashboard/style.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/dashboard/jquery.dataTables.min.css') }}">
     <script src="https://cdn.ckeditor.com/4.16.2/full-all/ckeditor.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
 
 </head>
 <body>
