@@ -1,3 +1,31 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@MineAmri 
+MineAmri
+/
+TalabNow
+Public
+Code
+Issues
+Pull requests
+Projects
+Wiki
+Security
+Insights
+Settings
+TalabNow/resources/views/layouts/d-app.blade.php
+@MineAmri
+MineAmri 'updated'
+Latest commit 9125d35 5 days ago
+ History
+ 1 contributor
+131 lines (119 sloc)  8.03 KB
+   
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -71,20 +99,20 @@
 
                                 </li>
                                 <li class="nav-divider">
-                                    Tools
+                                    Outils
                                 </li>
                                 <li class="nav-item ">
-                                    <a class="nav-link active" href="/dashboard/messages" ><i class="fas fa-envelope-open-text"></i> Liste Employeur </a>
+                                    <a class="nav-link active" href="/dashboard/messages" ><i class="fas fa-address-card"></i> Contact Employée </a>
                                 </li>
                                 <li class="nav-item ">
-                                    <a class="nav-link active" href="/dashboard/users"><i class="fas fa-users"></i>Users</a>
+                                    <a class="nav-link active" href="/dashboard/users"><i class="fas fa-address-book"></i> Liste Utilisateur</a>
                                 </li>
                                 <li class="nav-item ">
-                                    <a class="nav-link active" href="#"><i class="fab fa-blogger"></i> Calendrier</a>
+                                    <a class="nav-link active" href="#"><i class="fas fa-calendar-alt"></i> Calendrier</a>
                                 </li>
                               
                                 <li class="nav-item ">
-                                    <a class="nav-link active" href="http://127.0.0.1:8000/auth/logout"><i class="fas fa-project-diagram"></i>Log Out </a>
+                                    <a class="nav-link active" href="/auth/logout"><i class="   fas fa-circle-notch"></i> Deconnexion</a>
                                 </li>
 
 
@@ -100,7 +128,7 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                             Copyright © 2018 Concept. All rights reserved. Dashboard by <a href="https://colorlib.com/wp/">Colorlib</a>.
+                             Copyright © 2022 Concept. All rights reserved. Dashboard by <a href="https://instagram.com/mineamri">Mohamed Amine Amri</a>.
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                             <div class="text-md-right footer-links d-none d-sm-block">
@@ -128,4 +156,3 @@
     <script src="{{ asset('/js/dashboard/main-js.js') }}"></script>
 
 </body></html>
-

@@ -127,11 +127,16 @@
           </div>
           <div class="col-lg-3 col-md-6 footer-newsletter">
             <h4>{{ __('sentence.Newsletter') }}</h4>
-            <p>{{ __('sentence.Newsletter_des') }}</p>
-            <form >
             
-    <a style="background-color: #007aff;border: none;width: 100%;color: #fff;font-size: 14px;text-align: center;padding: 8px 15px;border-radius: 4px;font-weight: 600;" href="http://127.0.0.1:8000/register" class="btn btn-primary btn-block text-center btn-lg"><i class="fa fa-facebook-official" aria-hidden="true"></i> Inscription Employeé
-    </a><br><br><br>
+            <form >
+               <a style="width: 100%;font-size: 12px;text-align: center" href="http://127.0.0.1:8000/register" class="btn btn-danger btn-block text-center btn-lg"><i class="fa fa-facebook-official" aria-hidden="true"></i> Inscription Employeé
+              </a><br><br>
+            
+              <a style="width: 100%;font-size: 14px;text-align: center;padding: 8px 15px;border-radius: 4px;font-weight: 600;" href="http://127.0.0.1:8000/dashboard/index" class="btn btn-warning btn-block text-center btn-lg"><i class="fa fa-facebook-official" aria-hidden="true"></i> Tableau de Bord
+              </a><br><br><br>
+             </form>
+
+
 
             <a class="dropdown-item" href="/?lang=en"><img src="{{asset('lang/img/flags/48/Us.png')}}" width="22px"> English</a>
             <a class="dropdown-item" href="/?lang=fr"><img src="{{asset('lang/img/flags/48/Fr.png')}}" width="22px"> Français</a>

@@ -137,7 +137,7 @@ C’est l’aboutissement de vos campagnes de communication.',
 'usf'=>'Liens utiles',
 'Terms' => 'Conditions d’utilisation' ,
 'Privacy' => 'Politique de confidentialité' ,
-'Newsletter' => 'Notre Newsletter' ,
+'Newsletter' => 'Espace Emploi' ,
 'Newsletter_des' => 'Abonnez-vous pour obtenir les dernières solutions et services Web qui peuvent vous faciliter la vie.' ,
 'Search' => 'Rechercher',
 

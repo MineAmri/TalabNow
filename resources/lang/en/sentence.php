@@ -134,7 +134,7 @@ This is the culmination of your communication campaigns.',
 'usf'=>'Useful Links',
 'Terms' => 'Terms of service' ,
 'Privacy' => 'Privacy policy' ,
-'Newsletter' => 'Our Newsletter' ,
+'Newsletter' => 'Job Space' ,
 'Newsletter_des' => 'Subscribe to get the latest web solutions and services that can faciliate your life.' ,
 'Search' => 'Search',
 
