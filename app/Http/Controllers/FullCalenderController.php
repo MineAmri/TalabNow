@@ -32,7 +32,7 @@ class FullCalenderController extends Controller
      *
      * @return response()
      */
-    public function ajax(Request $request)
+    public function Ajax(Request $request)
     {
  
         switch ($request->type) {

@@ -36,13 +36,14 @@ Route::group(['middleware' => 'auth','IsAdmin'], function () {
 Route::get('/dashboard/index', [DashboardController::class, 'Showdashboard'])->name('admin.dash');
 Route::get('/dashboard/messages', [DashboardController::class, 'Showmessages'])->name('admin.msg');
 Route::get('/dashboard/messages/{id}', [DashboardController::class, 'showMsgbyID'])->name('admin.msgid');
-
 Route::get('/dashboard/users', [UsersController::class, 'Showusers'])->name('admin.users');
-
 Route::get('/dashboard/users/{id}', [UsersController::class, 'showUsersbyID'])->name('admin.userid');
 Route::get('/dashboard/delusers/{id}', [UsersController::class, 'destroyClient'])->name('admin.deluserid');
-
 Route::get('/dashboard/users', [UsersController::class, 'Showusers'])->name('admin.users'); 
+
+Route::get('/dashboard/fullcalender', [FullCalenderController::class, 'index'])->name('calender.dash'); 
+Route::post('/dashboard/fullcalender', [FullCalenderController::class, 'Ajax'])->name('ajax.dash');
+
 
 
 }); 
@@ -52,9 +53,12 @@ Route::get('/dashboard/users', [UsersController::class, 'Showusers'])->name('adm
 
 
 
-
 //////CLient path dashboard ///////
-Route::get('/dashboard/fullcalender', [FullCalenderController::class, 'index'])->name('calender.dash');
+
+
+
+
+
 
 
 Route::get('/authentication/index', [ClientController::class, 'Showdclientdash'])->name('client.dash');
@@ -64,7 +68,6 @@ Route::get('/authentication/index', [ClientController::class, 'Showdclientdash']
 
 
 Route::get('/auth/logout', [DashboardController::class, 'logout']);
-
 
 
 
