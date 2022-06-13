@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\app",
+    "\\app\\Http",
+    "\\app\\Http\\Controllers",
+    "\\app\\Models",
+    "\\public",
+    "\\public\\css",
+    "\\public\\css\\dashboard",
+    "\\resources",
+    "\\resources\\css",
+    "\\resources\\views"
+  ],
+  "SelectedNode": "\\app\\Models\\Event.php",
+  "PreviewInSolutionExplorer": false
+}
