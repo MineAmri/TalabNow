@@ -21,14 +21,13 @@
           <h3>{{ __('sentence.about_us') }}</h3>
           <p>{{ __('sentence.about_p') }}
           </p>
-        </header>
-        <div class="row about-container">
-          <div class="col-lg-6 content order-lg-1 order-2">
             <h3>{{ __('sentence.ab_h3') }}</h3>
             <p>
               {{ __('sentence.ab_p') }}
             </p>
-
+        </header>
+        <div class="row about-container">
+          <div class="col-lg-6 content order-lg-1 order-2">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
               <div class="icon"><i class="bi bi-palette-fill"></i></div>
               <h4 class="title"><a href="">{{ __('sentence.des') }}</a></h4>
@@ -217,8 +216,7 @@
             <ul id="portfolio-flters">
               <li data-filter=".filter-Catalogue">{{ __('sentence.Catalogue') }}</li>
               <li data-filter=".filter-Decoration">{{ __('sentence.Decoration') }}</li>
-              <li data-filter=".filter-Logo">{{ __('sentence.Logo') }}</li>
-              
+              <li data-filter=".filter-Logo">{{ __('sentence.Logo') }}</li>  
               <li data-filter=".filter-Plateform">{{ __('sentence.Plateform') }}</li>
               <li data-filter=".filter-ITServices">{{ __('sentence.ITServices') }}</li>
             </ul>
@@ -226,6 +224,8 @@
         </div>
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+                             <!-- Filter Catalogue -->
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-Catalogue">
             <div class="portfolio-wrap">
@@ -296,6 +296,7 @@
               </div>
             </div>
           </div>
+
           <div class="col-lg-4 col-md-6 portfolio-item filter-Catalogue">
             <div class="portfolio-wrap">
               <img src="{{ asset('/img/portfolio/Catalogue/Catalogue5.jpeg') }}" class="img-fluid" alt="Square Carte Visite 🎴 By Talab Now">
@@ -620,6 +621,66 @@
             </div>
           </div>
 
+                              <!-- Filter Decoration -->
+
+   <div class="col-lg-4 col-md-6 portfolio-item filter-Decoration">
+            <div class="portfolio-wrap">
+              <img src="{{ asset('/img/portfolio/Decoration/Catalogue20.jpeg') }}" class="img-fluid" alt="Get Service">
+              <div class="portfolio-info">
+                <h4><a>Décoration avec créativité 💡</a></h4>
+                <p>Model</p>
+                <div>
+                  <a href="{{ asset('/img/portfolio/Decoration/Catalogue20.jpeg') }}" class="portfolio-lightbox link-preview" data-gallery="portfolioGallery" title="Décoration avec créativité 💡"><i class="bi bi-eye"></i></a>
+                  <a href="#contact" class="link-details" title="Get Service"><i class="bi bi-bag-plus-fill"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-Decoration">
+            <div class="portfolio-wrap">
+              <img src="{{ asset('/img/portfolio/Decoration/Catalogue21.JPEG') }}" class="img-fluid" alt="Get Service">
+              <div class="portfolio-info">
+                <h4><a>Décoration avec créativité 💡</a></h4>
+                <p>Model</p>
+                <div>
+                  <a href="{{ asset('/img/portfolio/Decoration/Catalogue21.JPEG') }}" class="portfolio-lightbox link-preview" data-gallery="portfolioGallery" title="Décoration avec créativité 💡"><i class="bi bi-eye"></i></a>
+                  <a href="#contact" class="link-details" title="Get Service"><i class="bi bi-bag-plus-fill"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-Decoration">
+            <div class="portfolio-wrap">
+              <img src="{{ asset('/img/portfolio/Decoration/Catalogue22.jpeg') }}" class="img-fluid" alt="Get Service">
+              <div class="portfolio-info">
+                <h4><a>Décoration avec créativité 💡</a></h4>
+                <p>Model</p>
+                <div>
+                  <a href="{{ asset('/img/portfolio/Decoration/Catalogue22.JPEG') }}" class="portfolio-lightbox link-preview" data-gallery="portfolioGallery" title="Décoration avec créativité 💡"><i class="bi bi-eye"></i></a>
+                  <a href="#contact" class="link-details" title="Get Service"><i class="bi bi-bag-plus-fill"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-Decoration">
+            <div class="portfolio-wrap">
+              <img src="{{ asset('/img/portfolio/Decoration/Catalogue23.JPEG') }}" class="img-fluid" alt="Get Service">
+              <div class="portfolio-info">
+                <h4><a>Décoration avec créativité 💡</a></h4>
+                <p>Model</p>
+                <div>
+                  <a href="{{ asset('/img/portfolio/Decoration/Catalogue23.JPEG') }}" class="portfolio-lightbox link-preview" data-gallery="portfolioGallery" title="Décoration avec créativité 💡"><i class="bi bi-eye"></i></a>
+                  <a href="#contact" class="link-details" title="Get Service"><i class="bi bi-bag-plus-fill"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+                              <!-- Filter Logo -->
+
           	<div class="col-lg-4 col-md-6 portfolio-item filter-Logo">
             <div class="portfolio-wrap">
               <img src="{{ asset('/img/portfolio/Logo/Logo1.jpg') }}" class="img-fluid" alt="Sahara Fish By Talab Now">
@@ -662,6 +723,226 @@
             </div>
           </div>
 
+          <div class="col-lg-4 col-md-6 portfolio-item filter-Logo">
+            <div class="portfolio-wrap">
+              <img src="{{ asset('/img/portfolio/Logo/Logo4.jpeg') }}" class="img-fluid" alt="ParaSara Logo By Talab Now">
+              <div class="portfolio-info">
+                <h4><a>MakeUp Logo</a></h4>
+                <p>Logo</p>
+                <div>
+                  <a href="{{ asset('/img/portfolio/Logo/Logo4.jpeg') }}" class="portfolio-lightbox link-preview" data-gallery="portfolioGallery" title="ParaSara Logo By Talab Now"><i class="bi bi-eye"></i></a>
+                  <a href="#" class="link-details" title="Get Service"><i class="bi bi-bag-plus-fill"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+                              <!-- Filter Plateform -->
+
+ <div class="col-lg-4 col-md-6 portfolio-item filter-Plateform">
+            <div class="portfolio-wrap">
+              <img src="{{ asset('/img/portfolio/Plateform/Plateform1.jpeg') }}" class="img-fluid" alt="Création des sites web">
+              <div class="portfolio-info">
+                <h4><a>Nouvelles technologies</a></h4>
+                <p>Site Web</p>
+                <div>
+                  <a href="{{ asset('/img/portfolio/Plateform/Plateform1.jpeg') }}" class="portfolio-lightbox link-preview" data-gallery="portfolioGallery" title="Création des sites web"><i class="bi bi-eye"></i></a>
+                  <a href="#" class="link-details" title="Get Service"><i class="bi bi-bag-plus-fill"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+           <div class="col-lg-4 col-md-6 portfolio-item filter-Plateform">
+            <div class="portfolio-wrap">
+              <img src="{{ asset('/img/portfolio/Plateform/Plateform2.jpeg') }}" class="img-fluid" alt="Création des sites web">
+              <div class="portfolio-info">
+                <h4><a>Nouvelles technologies</a></h4>
+                <p>Site Web</p>
+                <div>
+                  <a href="{{ asset('/img/portfolio/Plateform/Plateform2.jpeg') }}" class="portfolio-lightbox link-preview" data-gallery="portfolioGallery" title="Création des sites web"><i class="bi bi-eye"></i></a>
+                  <a href="#" class="link-details" title="Get Service"><i class="bi bi-bag-plus-fill"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+           <div class="col-lg-4 col-md-6 portfolio-item filter-Plateform">
+            <div class="portfolio-wrap">
+              <img src="{{ asset('/img/portfolio/Plateform/Plateform3.jpeg') }}" class="img-fluid" alt="Création des sites web">
+              <div class="portfolio-info">
+                <h4><a>Nouvelles technologies</a></h4>
+                <p>Site Web</p>
+                <div>
+                  <a href="{{ asset('/img/portfolio/Plateform/Plateform3.jpeg') }}" class="portfolio-lightbox link-preview" data-gallery="portfolioGallery" title="Création des sites web"><i class="bi bi-eye"></i></a>
+                  <a href="#" class="link-details" title="Get Service"><i class="bi bi-bag-plus-fill"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+           <div class="col-lg-4 col-md-6 portfolio-item filter-Plateform">
+            <div class="portfolio-wrap">
+              <img src="{{ asset('/img/portfolio/Plateform/Plateform4.jpeg') }}" class="img-fluid" alt="Design  l’interface  d’une. Application 📱">
+              <div class="portfolio-info">
+                <h4><a>Ui/Ux Concept avec Adobe XD</a></h4>
+                <p>Plateform</p>
+                <div>
+                  <a href="{{ asset('/img/portfolio/Plateform/Plateform4.jpeg') }}" class="portfolio-lightbox link-preview" data-gallery="portfolioGallery" title="Design  l’interface  d’une. Application 📱"><i class="bi bi-eye"></i></a>
+                  <a href="#" class="link-details" title="Get Service"><i class="bi bi-bag-plus-fill"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+           <div class="col-lg-4 col-md-6 portfolio-item filter-Plateform">
+            <div class="portfolio-wrap">
+              <img src="{{ asset('/img/portfolio/Plateform/Plateform5.jpeg') }}" class="img-fluid" alt="Design  l’interface  d’une. Application 📱">
+              <div class="portfolio-info">
+                <h4><a>Ui/Ux Concept avec Adobe XD</a></h4>
+                <p>Plateform</p>
+                <div>
+                  <a href="{{ asset('/img/portfolio/Plateform/Plateform5.jpeg') }}" class="portfolio-lightbox link-preview" data-gallery="portfolioGallery" title="Design  l’interface  d’une. Application 📱"><i class="bi bi-eye"></i></a>
+                  <a href="#" class="link-details" title="Get Service"><i class="bi bi-bag-plus-fill"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+           <div class="col-lg-4 col-md-6 portfolio-item filter-Plateform">
+            <div class="portfolio-wrap">
+              <img src="{{ asset('/img/portfolio/Plateform/Plateform6.jpeg') }}" class="img-fluid" alt="Design  l’interface  d’une. Application 📱">
+              <div class="portfolio-info">
+                <h4><a>Ui/Ux Concept avec Adobe XD</a></h4>
+                <p>Plateform</p>
+                <div>
+                  <a href="{{ asset('/img/portfolio/Plateform/Plateform6.jpeg') }}" class="portfolio-lightbox link-preview" data-gallery="portfolioGallery" title="Design  l’interface  d’une. Application 📱"><i class="bi bi-eye"></i></a>
+                  <a href="#" class="link-details" title="Get Service"><i class="bi bi-bag-plus-fill"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+           <div class="col-lg-4 col-md-6 portfolio-item filter-Plateform">
+            <div class="portfolio-wrap">
+              <img src="{{ asset('/img/portfolio/Plateform/Plateform7.jpeg') }}" class="img-fluid" alt="Design  l’interface  d’une. Application 📱">
+              <div class="portfolio-info">
+                <h4><a>Ui/Ux Concept avec Adobe XD</a></h4>
+                <p>Plateform</p>
+                <div>
+                  <a href="{{ asset('/img/portfolio/Plateform/Plateform7.jpeg') }}" class="portfolio-lightbox link-preview" data-gallery="portfolioGallery" title="Design  l’interface  d’une. Application 📱"><i class="bi bi-eye"></i></a>
+                  <a href="#" class="link-details" title="Get Service"><i class="bi bi-bag-plus-fill"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+           <div class="col-lg-4 col-md-6 portfolio-item filter-Plateform">
+            <div class="portfolio-wrap">
+              <img src="{{ asset('/img/portfolio/Plateform/Plateform8.jpeg') }}" class="img-fluid" alt="Design  l’interface  d’une. Application 📱">
+              <div class="portfolio-info">
+                <h4><a>Ui/Ux Concept avec Adobe XD</a></h4>
+                <p>Plateform</p>
+                <div>
+                  <a href="{{ asset('/img/portfolio/Plateform/Plateform8.jpeg') }}" class="portfolio-lightbox link-preview" data-gallery="portfolioGallery" title="Design  l’interface  d’une. Application 📱"><i class="bi bi-eye"></i></a>
+                  <a href="#" class="link-details" title="Get Service"><i class="bi bi-bag-plus-fill"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+                              <!-- Filter ITServices -->
+
+                              <div class="col-lg-4 col-md-6 portfolio-item filter-ITServices">
+            <div class="portfolio-wrap">
+              <img src="{{ asset('/img/portfolio/ITServices/Service1.jpeg') }}" class="img-fluid" alt="Formatage, Installation des logiciels, Réparations">
+              <div class="portfolio-info">
+                <h4><a>Maintenance Pc</a></h4>
+                <p>IT Services</p>
+                <div>
+                  <a href="{{ asset('/img/portfolio/ITServices/Service1.jpeg') }}" class="portfolio-lightbox link-preview" data-gallery="portfolioGallery" title="Formatage, Installation des logiciels, Réparations"><i class="bi bi-eye"></i></a>
+                  <a href="#" class="link-details" title="Get Service"><i class="bi bi-bag-plus-fill"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+                   <div class="col-lg-4 col-md-6 portfolio-item filter-ITServices">
+            <div class="portfolio-wrap">
+              <img src="{{ asset('/img/portfolio/ITServices/Service2.jpeg') }}" class="img-fluid" alt="Formatage, Installation des logiciels, Réparations">
+              <div class="portfolio-info">
+                <h4><a>Maintenance Pc</a></h4>
+                <p>IT Services</p>
+                <div>
+                  <a href="{{ asset('/img/portfolio/ITServices/Service2.jpeg') }}" class="portfolio-lightbox link-preview" data-gallery="portfolioGallery" title="Formatage, Installation des logiciels, Réparations"><i class="bi bi-eye"></i></a>
+                  <a href="#" class="link-details" title="Get Service"><i class="bi bi-bag-plus-fill"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+                             <div class="col-lg-4 col-md-6 portfolio-item filter-ITServices">
+            <div class="portfolio-wrap">
+              <img src="{{ asset('/img/portfolio/ITServices/Service3.jpeg') }}" class="img-fluid" alt="Formatage, Installation des logiciels, Réparations">
+              <div class="portfolio-info">
+                <h4><a>Maintenance Pc</a></h4>
+                <p>IT Services</p>
+                <div>
+                  <a href="{{ asset('/img/portfolio/ITServices/Service3.jpeg') }}" class="portfolio-lightbox link-preview" data-gallery="portfolioGallery" title="Formatage, Installation des logiciels, Réparations"><i class="bi bi-eye"></i></a>
+                  <a href="#" class="link-details" title="Get Service"><i class="bi bi-bag-plus-fill"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+                             <div class="col-lg-4 col-md-6 portfolio-item filter-ITServices">
+            <div class="portfolio-wrap">
+              <img src="{{ asset('/img/portfolio/ITServices/Service4.jpeg') }}" class="img-fluid" alt="Formatage, Installation des logiciels, Réparations">
+              <div class="portfolio-info">
+                <h4><a>Maintenance Pc</a></h4>
+                <p>IT Services</p>
+                <div>
+                  <a href="{{ asset('/img/portfolio/ITServices/Service4.jpeg') }}" class="portfolio-lightbox link-preview" data-gallery="portfolioGallery" title="Formatage, Installation des logiciels, Réparations"><i class="bi bi-eye"></i></a>
+                  <a href="#" class="link-details" title="Get Service"><i class="bi bi-bag-plus-fill"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+                             <div class="col-lg-4 col-md-6 portfolio-item filter-ITServices">
+            <div class="portfolio-wrap">
+              <img src="{{ asset('/img/portfolio/ITServices/Service5.jpeg') }}" class="img-fluid" alt="Formatage, Installation des logiciels, Réparations">
+              <div class="portfolio-info">
+                <h4><a>Maintenance Pc</a></h4>
+                <p>IT Services</p>
+                <div>
+                  <a href="{{ asset('/img/portfolio/ITServices/Service5.jpeg') }}" class="portfolio-lightbox link-preview" data-gallery="portfolioGallery" title="Formatage, Installation des logiciels, Réparations"><i class="bi bi-eye"></i></a>
+                  <a href="#" class="link-details" title="Get Service"><i class="bi bi-bag-plus-fill"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+                             <div class="col-lg-4 col-md-6 portfolio-item filter-ITServices">
+            <div class="portfolio-wrap">
+              <img src="{{ asset('/img/portfolio/ITServices/Service6.jpeg') }}" class="img-fluid" alt="Réparation & Débloquer iPhone ou Android">
+              <div class="portfolio-info">
+                <h4><a>Réparation & Débloquage</a></h4>
+                <p>IT Services</p>
+                <div>
+                  <a href="{{ asset('/img/portfolio/ITServices/Service6.jpeg') }}" class="portfolio-lightbox link-preview" data-gallery="portfolioGallery" title="Réparation & Débloquer iPhone ou Android"><i class="bi bi-eye"></i></a>
+                  <a href="#" class="link-details" title="Get Service"><i class="bi bi-bag-plus-fill"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
          
      	</div>
     </section><!-- End Portfolio Section -->
@@ -678,7 +959,7 @@
                   <div class="testimonial-item">
                     <img src="{{ asset('/img/testimonial-1.jpg') }}" class="testimonial-img" alt="">
                     <h3>Walid Loultiti</h3>
-                    <h4>Ceo &amp; Founder</h4>
+                    <h4>Client</h4>
                     <p>
                       great work !
                     </p>
@@ -688,12 +969,12 @@
                   <div class="testimonial-item">
                     <img src="{{ asset('/img/testimonial-2.jpg') }}" class="testimonial-img" alt="">
                     <h3>Hamza Assaidi</h3>
-                    <h4>Designer</h4>
+                    <h4>Trader</h4>
                     <p>
-                      We have the Quality , Trust for Us . peace and love !
+                      je suis trés satisfé !
                     </p>
                   </div>
-                </div><!-- End testimonial item -->
+                </div>
 
                 <div class="swiper-slide">
                   <div class="testimonial-item">
@@ -701,20 +982,20 @@
                     <h3>Fouad Lazkri</h3>
                     <h4>Store Owner</h4>
                     <p>
-                      Soon ... We will open it !
+                      Meilleure pour l'impression des T-shirts !
                     </p>
                   </div>
-                </div><!-- End testimonial item -->
+                </div>
                 <div class="swiper-slide">
                   <div class="testimonial-item">
                     <img src="{{ asset('/img/testimonial-4.jpg') }}" class="testimonial-img" alt="">
                     <h3>Hicham Mellali</h3>
                     <h4>Responsable Commercial</h4>
                     <p>
-                      Trust no one who don't show the catalogue.
+                      Merci @TalabNow Toujours la creativité.
                     </p>
                   </div>
-                </div><!-- End testimonial item -->
+                </div>
 
                 <div class="swiper-slide">
                   <div class="testimonial-item">
@@ -725,8 +1006,8 @@
                       he always has wit ! Peace #TalabNow
                     </p>
                   </div>
-                </div><!-- End testimonial item -->
-
+                </div>
+                
               </div>
               <div class="swiper-pagination"></div>
             </div>
@@ -735,7 +1016,8 @@
         </div>
 
       </div>
-    </section>
+    </section><!-- End testimonial item -->
+
 
     <section id="team">
       <div class="container" data-aos="fade-up">
@@ -753,26 +1035,9 @@
                   <span>{{ __('sentence.Ceo_span') }}</span>
                   <div class="social">
                     <a href="https://twitter.com/amineamri"><i class="bi bi-twitter"></i></a>
-                    <a href="https://www.facebook.com/mohamedamineamriii/"><i class="bi bi-facebook"></i></a>
+                    <a href="https://www.facebook.com/mineamri/"><i class="bi bi-facebook"></i></a>
                     <a href="https://www.instagram.com/mineamri/"><i class="bi bi-instagram"></i></a>
-                    <a href="https://www.linkedin.com/in/amriservices/"><i class="bi bi-bag-plus-filledin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6" data-aos="zoom-out" data-aos-delay="200">
-            <div class="member">
-              <center><img src="{{ asset('/img/team-2.jpg') }}" class="img-fluid" alt=""></center>
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>El Mahdi Ouhssain</h4>
-                  <span>{{ __('sentence.Ceo_dev') }}</span>
-                  <div class="social">
-                    <a href=""><i class="bi bi-twitter"></i></a>
-                    <a href="https://www.facebook.com/elmahdi.ouhssain"><i class="bi bi-facebook"></i></a>
-                    <a href="https://www.instagram.com/elmahdi.ouhssain/"><i class="bi bi-instagram"></i></a>
-                    <a href="https://www.linkedin.com/in/elmahdi-ouhssain/"><i class="bi bi-bag-plus-filledin"></i></a>
+                    <a href="https://www.linkedin.com/in/mineamri/"><i class="bi bi-bag-plus-filledin"></i></a>
                   </div>
                 </div>
               </div>

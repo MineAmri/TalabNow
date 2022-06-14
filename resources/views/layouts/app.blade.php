@@ -69,20 +69,9 @@
           <li><a class="nav-link scrollto" href="#services">{{ __('sentence.Services') }}</a></li>
           <li><a class="nav-link scrollto " href="#portfolio">{{ __('sentence.Portfolio') }}</a></li>
           <li><a class="nav-link scrollto" href="#team">{{ __('sentence.Team_nav') }}</a></li>
-          <li><a class="nav-link scrollto" href="/blog" target="_blank">{{ __('sentence.Blog') }}</a>
-            <!--
-            <ul>
-              <li><a href="/tutorial">{{ __('sentence.Tutorial') }}</a></li>
-              <li><a href="/hireusonfiverr">{{ __('sentence.Hire') }}</a></li>
-              <li><a href="/discussidea">{{ __('sentence.Discuss_Idea') }}</a></li>
-              <li><a href="/solutions">{{ __('sentence.solution') }}</a></li>
-            </ul>
-            -->
-
-          </li>
-
           <li><a class="nav-link scrollto" href="#contact">{{ __('sentence.Contact') }}</a></li>
-          <li><a class="nav-link scrollto"></a></li>
+          <li><a class="nav-link scrollto" href="#contact">       </a></li>
+          <li><a style="width: 100%;font-size: 14px;text-align: center;padding: 8px 15px;border-radius: 4px;font-weight: 600;color:white;" class="btn btn-warning btn-block text-center btn-lg" href="http://127.0.0.1:8000/register">Espace Employée</a></li>
 
           </ul>
           
@@ -129,9 +118,6 @@
             <h4>{{ __('sentence.Newsletter') }}</h4>
             
             <form >
-               <a style="width: 100%;font-size: 12px;text-align: center" href="http://127.0.0.1:8000/register" class="btn btn-danger btn-block text-center btn-lg"><i class="fa fa-facebook-official" aria-hidden="true"></i> Inscription Employeé
-              </a><br><br>
-            
               <a style="width: 100%;font-size: 14px;text-align: center;padding: 8px 15px;border-radius: 4px;font-weight: 600;" href="http://127.0.0.1:8000/dashboard/index" class="btn btn-warning btn-block text-center btn-lg"><i class="fa fa-facebook-official" aria-hidden="true"></i> Tableau de Bord
               </a><br><br><br>
              </form>
